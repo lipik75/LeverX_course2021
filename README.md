@@ -2,13 +2,13 @@
 
 ## Homework1
 
->1.[Programm countwords](https://github.com/lipik75/LeverX_course2021/tree/master/src/main/java/com/leverx/homework1/countwords);
+1.[Programm countwords](https://github.com/lipik75/LeverX_course2021/tree/master/src/main/java/com/leverx/homework1/countwords);
 
 >Description:
->This programm count words in a some text and return statistics.
+>>This programm count words in a some text and return statistics.
 
 >Details:
->Implement  method "countWords" in "Words" class.
+>>Implement  method "countWords" in "Words" class.
 
 Input parameter is a list of strings representing lines of text.
 
