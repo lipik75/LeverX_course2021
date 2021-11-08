@@ -4,7 +4,7 @@
 
 # [1. Programm countwords](https://github.com/lipik75/LeverX_course2021/tree/master/src/main/java/com/leverx/homework1/countwords)
 
->Description:
+> ## Description:
 >>This programm count words in a some text and return statistics.
 
 >Details:
@@ -30,7 +30,7 @@
 
 
 # [2. The game TicTacToe](https://github.com/lipik75/LeverX_course2021/tree/master/src/main/java/com/leverx/homework1/game)
-> ## Discription:
+> ## Description:
 > 
 >The game has 2 modes:
 >>
