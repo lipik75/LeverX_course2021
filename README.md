@@ -2,7 +2,7 @@
 
 ## Homework1
 
-1.[Programm countwords](https://github.com/lipik75/LeverX_course2021/tree/master/src/main/java/com/leverx/homework1/countwords);
+# [1. Programm countwords](https://github.com/lipik75/LeverX_course2021/tree/master/src/main/java/com/leverx/homework1/countwords);
 
 >Description:
 >>This programm count words in a some text and return statistics.
