@@ -32,7 +32,7 @@
 # [2. The game TicTacToe](https://github.com/lipik75/LeverX_course2021/tree/master/src/main/java/com/leverx/homework1/game)
 > ## Discription:
 > 
->>The game has 2 modes:
+>The game has 2 modes:
 >>
 >>PvE - Player versus Environment (computer)
 >>
