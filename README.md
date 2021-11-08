@@ -2,7 +2,7 @@
 
 ## Homework1
 
-# [1. Programm countwords](https://github.com/lipik75/LeverX_course2021/tree/master/src/main/java/com/leverx/homework1/countwords);
+# [1. Programm countwords](https://github.com/lipik75/LeverX_course2021/tree/master/src/main/java/com/leverx/homework1/countwords)
 
 >Description:
 >>This programm count words in a some text and return statistics.
@@ -29,8 +29,9 @@
 2) java com/leverx/homework1/countwords/main/Main
 
 
-# [2. The game TicTacToe](https://github.com/lipik75/LeverX_course2021/tree/master/src/main/java/com/leverx/homework1/game);
-
+# [2. The game TicTacToe](https://github.com/lipik75/LeverX_course2021/tree/master/src/main/java/com/leverx/homework1/game)
+>Discription^
+>The game has 2 modes:
 >>PvE - Player versus Environment (computer)
 >
 >>PvP - Player versus Player
