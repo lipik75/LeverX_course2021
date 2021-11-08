@@ -27,3 +27,10 @@
 >Commands from directory "./com/":
 1) javac com/leverx/homework1/countwords/main/Main.java
 2) java com/leverx/homework1/countwords/main/Main
+
+
+# [2. The game TicTacToe](https://github.com/lipik75/LeverX_course2021/tree/master/src/main/java/com/leverx/homework1/game);
+
+>>PvE - Player versus Environment (computer)
+>
+>>PvP - Player versus Player
