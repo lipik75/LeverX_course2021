@@ -1,13 +1,13 @@
 # LeverX_course2021
 
-## homework1
+## Homework1
 
-1. [Programm countwords](https://github.com/lipik75/LeverX_course2021/tree/master/src/main/java/com/leverx/homework1/countwords);
+>1.[Programm countwords](https://github.com/lipik75/LeverX_course2021/tree/master/src/main/java/com/leverx/homework1/countwords);
 
-Description
+>Description
 This programm count words in a some text and return statistics.
 
-Details
+>Details
 Implement  method "countWords" in "Words" class.
 
 Input parameter is a list of strings representing lines of text.
@@ -22,8 +22,7 @@ Entries in the resulting String should be also sorted by amount and then in alph
 
 The programm may not use conditional statements and cycles in your code (that is right, no if, for, while, etc.))
 
-Version: 13.0.1
-Commands from directory "./com/":
-
+>Version: 13.0.1
+>Commands from directory "./com/":
 1) javac com/leverx/homework1/countwords/main/Main.java
 2) java com/leverx/homework1/countwords/main/Main
