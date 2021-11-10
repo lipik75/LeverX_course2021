@@ -37,3 +37,19 @@
 >>PvE - Player versus Environment (computer)
 >>
 >>PvP - Player versus Player
+
+
+## homework2
+
+# [1. ExampleDeadLockClass](https://github.com/lipik75/LeverX_course2021/blob/master/src/main/java/com/leverx/homework2/deadlock/ExampleDeadLockClass.java)
+>## Description:
+>>Deadlock describes a situation where two or more threads are blocked forever, waiting for each other. 
+>>Deadlock occurs when multiple threads need the same locks but obtain them in different order. 
+>>A Java multithreaded program may suffer from the deadlock condition because the synchronized keyword causes the executing thread to block while waiting for the lock, or monitor, associated with the specified object.
+
+> Deadlock Solution Example
+>> We can change the order of the lock and run of the same program to see if both the threads still wait for each other
+
+# [2. SomeImmutableClass](https://github.com/lipik75/LeverX_course2021/blob/master/src/main/java/com/leverx/homework2/immutable/SomeImmutableClass.java)
+>## Description:
+>
