@@ -59,3 +59,9 @@
 # [2. SomeImmutableClass](https://github.com/lipik75/LeverX_course2021/blob/master/src/main/java/com/leverx/homework2/immutable/SomeImmutableClass.java)
 >## Description:
 >
+>To write an immutable class, you need to follow next points:
+>>1. make the class final.
+>>2. make all fields private and create only getters for them. Setters are, of course, unnecessary.
+>>3. Make all mutable fields "final" so that the value can only be set once.
+>>4. initialize all fields through the constructor, performing deep copying (that is, copying the object itself, and its variables, and variable variables, and so on)
+>>5. clone mutable variable objects in getters to only return copies of values, not references to actual objects.
