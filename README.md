@@ -50,6 +50,7 @@
 
 > Deadlock Solution Example
 >> We can change the order of the lock and run of the same program to see if both the threads still wait for each other
+>> [Example solution](https://github.com/lipik75/LeverX_course2021/blob/master/src/main/java/com/leverx/homework2/deadlock/SolutionForDeadLock.java)
 
 # [2. SomeImmutableClass](https://github.com/lipik75/LeverX_course2021/blob/master/src/main/java/com/leverx/homework2/immutable/SomeImmutableClass.java)
 >## Description:
