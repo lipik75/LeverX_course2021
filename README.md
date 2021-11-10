@@ -1,6 +1,6 @@
 # LeverX_course2021
 
-## Homework1
+## HOMEWORK-1
 
 # [1. Programm countwords](https://github.com/lipik75/LeverX_course2021/tree/master/src/main/java/com/leverx/homework1/countwords)
 
@@ -39,7 +39,8 @@
 >>PvP - Player versus Player
 
 
-## homework2
+
+## HOMEWORK-2
 
 # [1. ExampleDeadLockClass](https://github.com/lipik75/LeverX_course2021/blob/master/src/main/java/com/leverx/homework2/deadlock/ExampleDeadLockClass.java)
 >## Description:
