@@ -1,50 +1,44 @@
 package com.leverx.homework2.deadlock;
 
 public class ExampleDeadLockClass {
+    public static Object Lock1 = new Object();
+    public static Object Lock2 = new Object();
 
-    static class Friend {
-        private final String name;
-
-        public Friend(String name) {
-            this.name = name;
-        }
-
-        public String getName() {
-            return this.name;
-        }
-
-        public synchronized void bow(Friend bower) {
-            System.out.format("%s: %s" + "  has bowed to me!%n", this.name, bower.getName());
-            bower.bowBack(this);
-        }
-        public synchronized void bowBack(Friend bower) {
-            System.out.format("%s: %s"
-                            + " has bowed back to me!%n",
-                    this.name, bower.getName());
-        }
+    public static void main(String args[]) {
+        ThreadDemo1 T1 = new ThreadDemo1();
+        ThreadDemo2 T2 = new ThreadDemo2();
+        T1.start();
+        T2.start();
     }
 
-    public static void main(String[] args) {
-        final Friend alphonse =
-                new Friend("Alphonse");
-        final Friend gaston =
-                new Friend("Gaston");
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                // System.out.println("Thread 1");
-                alphonse.bow(gaston);
-                // System.out.println("Th: gaston bowed to alphonse");
-            }
-        }).start();
+    private static class ThreadDemo1 extends Thread {
+        public void run() {
+            synchronized (Lock1) {
+                System.out.println("Thread 1: Holding lock 1...");
 
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                //  System.out.println("Thread 2");
-                gaston.bow(alphonse);
-                //  System.out.println("2.gaston waiting alph bowed");
+                try { Thread.sleep(10); }
+                catch (InterruptedException e) {}
+                System.out.println("Thread 1: Waiting for lock 2...");
+
+                synchronized (Lock2) {
+                    System.out.println("Thread 1: Holding lock 1 & 2...");
+                }
             }
-        }).start();
+        }
+    }
+    private static class ThreadDemo2 extends Thread {
+        public void run() {
+            synchronized (Lock2) {
+                System.out.println("Thread 2: Holding lock 2...");
+
+                try { Thread.sleep(10); }
+                catch (InterruptedException e) {}
+                System.out.println("Thread 2: Waiting for lock 1...");
+
+                synchronized (Lock1) {
+                    System.out.println("Thread 2: Holding lock 1 & 2...");
+                }
+            }
+        }
     }
 }
