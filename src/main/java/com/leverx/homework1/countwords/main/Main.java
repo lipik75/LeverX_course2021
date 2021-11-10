@@ -37,8 +37,6 @@ public class Main {
 //                Files.lines(Paths.get("src", "test", "resources", "sherlock12.txt"), Charset.forName("windows-1251")),
 //                Files.lines(Paths.get("src", "test", "resources", "sherlock34.txt"), Charset.forName("windows-1251")))
 //                .collect(Collectors.toList());
-
         System.out.println(new Words().countWords(lines));
-
     }
 }
